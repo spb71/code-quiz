@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Code Quiz</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <main id="root">
+        <div class="corner-div top-left">
+          <a href="#section-4">View Highscores</a>
+        </div>
+        
+        <section class="center-body">
+            <div id="section-1">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind tha tincorrect answers will penalize your score/time by ten seconds!</p>
+                <button id="start-btn" class="btn" type="button">Start Quiz</button>
+            </div>
+            
+            <div id="section-2">
+                <h2 id="question">[will be blank place holder for question]</h2>
+                <div class="answers-btn">
+                    <button class="btn answer">[will be blank place holder for answer choice 1]</button>
+                    <button class="btn answer">[will be blank place holder for answer choice 2]</button>
+                    <button class="btn answer">[will be blank place holder for answer choice 3]</button>
+                    <button class="btn answer">[will be blank place holder for answer choice 4]</button>
+                </div>
+                <div class="section-2-ptags">
+                    <p id="correct" class="section-2-ptag-margin">Correct!</p>
+                    <p id="wrong" class="section-2-ptag-margin">Wrong!</p>
+                </div>
+            </div>
+            
+            <div id="section-3">
+                <h2>[placeholder for "All done!"]</h2>           <p>Your final score is: [place holder for final score]<p>
+                <form>
+                    <label for="fname">Enter initials: </label>
+                    <input type="text" id="initials" name="initials">
+                    <input type="submit" class="btn">
+                </form>
+            </div>
+            <div id="section-4">
+                <h2>Highscores</h2>
+                <div>
+                    <ol class="highscore-ol">
+                        <li id="highscore-1">1. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-2">2. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-3">3. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-4">4. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-5">5. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-6">6. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-7">7. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-8">8. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-9">9. [placeholder for highscore initial + score]</li>
+                        <li id="highscore-10">10. [placeholder for highscore initial + score]</li>
+                    </ol>
+                </div>
+                <button id="go-back" class="btn">Go Back</button>
+                <button id="clear" class="btn">Clear Highscores</button>
+            </div>
+        </section>
+            
+        <div class="corner-div top-right">
+            <p>Time Left: <span class="countdown">75</span></p>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
