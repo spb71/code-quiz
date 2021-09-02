@@ -6,8 +6,8 @@ This project is a webpage that implements code quiz on basic elements of Javascr
 
 ## Screenshots
 
-![code-quiz-screenshot](./Assets/code-quiz.PNG)
+![code-quiz-screenshot](./assets/code-quiz.PNG)
 
 ## Link to Portfolio
 
-https://spb71.github.io/password-authentication/
+https://spb71.github.io/code-quiz/
